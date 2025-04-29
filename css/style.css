@@ -1,0 +1,154 @@
+/*font family*/
+
+    @font-face{
+    src: url();
+    font-family:  ;
+}
+
+/*font family*/
+
+/*Common css Start*/
+
+:root{
+    --popr:" ";
+    --bl:  ;
+}
+
+body{
+    
+}
+
+/*Common css End*/
+
+/*item 1*/
+
+#dr{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+}
+
+/*item 2*/
+
+#dro_dra{
+    width: 100px;
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0;
+}
+
+#dro{
+    width: 150px;
+    height: 150px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px;
+}
+
+/*item 3*/
+
+#resi{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+}
+
+.resi_h3{
+    text-align: center;
+    margin: 0;
+}
+
+/*item 4*/
+
+#resia{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+}
+
+.resia_h3{
+    text-align: center;
+    margin: 0;
+}
+
+/*item 5*/
+
+#feedback { 
+    font-size: 1.4em; 
+}
+#sel .ui-selecting { 
+    background: #FECA40; 
+}
+#sel .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+#sel { 
+    list-style-type: none; 
+    margin: 0; padding: 0;
+    width: 60%; 
+}
+#sel li { 
+    margin: 3px; 
+    padding: 0.4em; 
+    font-size: 1.4em; 
+    height: 45px; 
+}
+
+/*item 6*/
+
+#sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 45px; 
+}
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
+}
+
+/*item 11*/
+
+.ui-controlgroup-vertical {
+      width: 150px;
+    }
+    .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+    .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+#car-type-button {
+      width: 120px;
+    }
+.ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+
+/*Item 14*/
+
+.ui-menu { 
+    width: 150px; 
+}
+
+/*Item 15*/
+
+#progressbar {
+    margin-top: 20px;
+}
+ 
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+ 
+.ui-dialog-titlebar-close {
+    display: none;
+}
