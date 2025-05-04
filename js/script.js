@@ -65,7 +65,7 @@ $(function() {
 // Item 8
 
 $( function() {
-    var availableTags = [
+    var data = [
       "ActionScript",
       "AppleScript",
       "Asp",
@@ -90,7 +90,7 @@ $( function() {
       "Scheme"
     ];
     $( "#tags" ).autocomplete({
-      source: availableTags
+      source: data
     });
 } );
 
@@ -129,22 +129,22 @@ $( function() {
 // Item 13
 
 $( function() {
-    $( "#dialog" ).dialog({
-      autoOpen: false,
-      show: {
-        effect: "blind",
-        duration: 1000
-      },
-      hide: {
-        effect: "explode",
-        duration: 1000
-      }
-    });
- 
-    $( "#opener" ).on( "click", function() {
-      $( "#dialog" ).dialog( "open" );
-    });
-} );
+  $( "#dialog" ).dialog({
+    autoOpen: false,
+    show: {
+      effect: "blind",
+      duration: 1000
+    },
+    hide: {
+      effect: "explode",
+      duration: 1000
+    }
+  });
+
+  $( "#opener" ).on( "click", function() {
+    $( "#dialog" ).dialog( "open" );
+  });
+});
 
 // Item 14
 
